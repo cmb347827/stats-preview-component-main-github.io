@@ -1,0 +1,78 @@
+*, ::before, ::after {
+  box-sizing: border-box; }
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  background-color: DarkSlateBlue;
+  background-color: #090b1a;
+  font: 400 15px "Lexend Deca", sans-serif; }
+
+h1 {
+  color: Snow;
+  color: white;
+  font: 700 "Inter", sans-serif; }
+
+main {
+  overflow: auto;
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  place-content: center; }
+  main .container {
+    width: 375px;
+    background-color: SlateBlue;
+    background-color: #1b1938; }
+    main .container div div:nth-of-type(2) .text-primary-emphasis {
+      color: MediumOrchid;
+      color: #aa5cdb; }
+    main .container div div:nth-of-type(2) p {
+      color: FloralWhite;
+      color: rgba(255, 255, 255, 0.6); }
+    main .container div div:nth-of-type(2) li {
+      color: FloralWhite;
+      color: rgba(255, 255, 255, 0.6); }
+      main .container div div:nth-of-type(2) li span {
+        color: Snow;
+        color: white;
+        font-family: 'Inter', sans-serif; }
+  main .image {
+    background-color: MediumOrchid;
+    background-color: #aa5cdb;
+    padding: 0;
+    margin: 0; }
+    main .image #mobile {
+      display: none; }
+    main .image #desktop {
+      display: none; }
+    @media screen and (max-width: 992px) {
+      main .image #mobile {
+        display: block;
+        width: 100%; } }
+    @media screen and (min-width: 993px) {
+      main .image #desktop {
+        display: block;
+        width: 100%; } }
+  @media screen and (min-width: 576px) {
+    main .container {
+      width: 576px; } }
+  @media screen and (min-width: 768px) {
+    main .container {
+      width: 768px; } }
+  @media screen and (min-width: 992px) {
+    main .container {
+      width: 992px; } }
+  @media screen and (min-width: 1200px) {
+    main .container {
+      width: 1200px; } }
+  @media screen and (min-width: 1440px) {
+    main .container {
+      width: 1440px; } }
+
+footer .attribution {
+  font-size: 11px;
+  text-align: center; }
+footer .attribution a, footer .attribution span {
+  color: #aa5cdb; }
+
+/*# sourceMappingURL=stats-preview-card-component-main.css.map */
